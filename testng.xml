@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" >
+  <test parallel="methods" thread-count="2" verbose="2" preserve-order="true"
+    name="D:/4thYear/SoftwareQualityAssuarance/Practicles/Assignment/Development/Assignment">
+    <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="POM.Tests.AdidasTests">
+        <methods>
+          <include name="testSearchFunctionality"/>
+          <include name="testNavigateToNewCategory"/>
+          <include name="testFilterFunctionality"/>
+          <include name="testPriceLowToHighFilter"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
