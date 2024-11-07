@@ -46,8 +46,8 @@ This project covers:
 
 1. **Clone the Repository**:
     ```bash
-    git clone [your-repo-url]
-    cd [your-repo-folder]
+    git clone
+    go to your repo
     ```
 
 2. **Install Dependencies**:
