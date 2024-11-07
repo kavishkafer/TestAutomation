@@ -46,8 +46,7 @@ This project covers:
 
 1. **Clone the Repository**:
     ```bash
-    git clone
-    go to your repo
+    git clone https://github.com/kavishkafer/TestAutomation.git
     ```
 
 2. **Install Dependencies**:
